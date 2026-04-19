@@ -1,4 +1,5 @@
 ###The code of Example 01
+
 public class Car {
     String color;
     String model;
@@ -21,6 +22,7 @@ public class Main{
 }
 
 ###The Code of Example 02
+
 public class Student{
     String name;
     int Roll;
