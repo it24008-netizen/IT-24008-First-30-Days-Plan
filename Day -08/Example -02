@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+
+public class LinkedListExample {
+    public static void main(String[] args) {
+        // Creating a linked list
+        LinkedList<String> animals = new LinkedList<>();
+
+        // Adding elements
+        animals.add("Dog");
+        animals.add("Cat");
+        animals.add("Elephant");
+
+        // Displaying the LinkedList
+        System.out.println("Animals: " + animals);
+    }
+}
