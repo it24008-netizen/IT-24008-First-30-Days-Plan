@@ -20,4 +20,16 @@
 # Topic Name : Inheritance In Java
 # Video :https://www.youtube.com/watch?v=j\_VA2Rp6jM0\&list=PLSGubLIO9kuDMrAqU8bVQx4Zv-E-6AEnj\&index=6
 # Code :  https://github.com/it24008-netizen/IT-24008-First-30-Days-Plan/edit/main/README.md
+## Day #08
+# Date : 26- 04 - 2026
+#Topic : Introduction to the JAVA collection Framework
+#Video Link : https://youtu.be/TDHaeHAlPFg?si=-s4EO3yb3XDPATRt
+#Video No.10
+## :27-04-2026
+## Day #09
+#Topic Name: Working with Lists: ArrayList and LinkedList
+#Video Link: https://youtu.be/q-5D9Z9BCVI?si=Wd8FOd81-CNfaviS
+#Video No.11
+
+
 
