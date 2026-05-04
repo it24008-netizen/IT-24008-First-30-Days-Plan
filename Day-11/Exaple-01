@@ -1,0 +1,36 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class BangladeshiCustomerQueue {
+    public static void main(String[] args) {
+        Queue<String> customerQueue = new LinkedList<>();
+
+        customerQueue.offer("Rahim");
+        customerQueue.offer("Karim");
+        customerQueue.offer("Selina");
+        customerQueue.offer("Jamal");
+        customerQueue.offer("Nasrin");
+
+        System.out.println("Initial Queue: " + customerQueue);
+
+        String servedCustomer = customerQueue.poll();
+        System.out.println("Serving: " + servedCustomer);
+        System.out.println("Queue after first service: " + customerQueue);
+
+        servedCustomer = customerQueue.poll();
+        System.out.println("Serving: " + servedCustomer);
+        System.out.println("Queue after second service: " + customerQueue);
+
+        servedCustomer = customerQueue.poll();
+        System.out.println("Serving: " + servedCustomer);
+        System.out.println("Queue after third service: " + customerQueue);
+
+        servedCustomer = customerQueue.poll();
+        System.out.println("Serving: " + servedCustomer);
+        System.out.println("Queue after fourth service: " + customerQueue);
+
+        servedCustomer = customerQueue.poll();
+        System.out.println("Serving: " + servedCustomer);
+        System.out.println("Final Queue: " + customerQueue);
+    }
+}
