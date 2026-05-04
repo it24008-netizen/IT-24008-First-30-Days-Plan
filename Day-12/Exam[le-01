@@ -1,0 +1,32 @@
+import java.util.HashMap;
+
+public class HashMapExample {
+    public static void main(String[] args) {
+        // Creating a HashMap
+        HashMap<String, Integer> map = new HashMap<>();
+
+        // Adding key-value pairs to the HashMap
+        map.put("Apple", 1);
+        map.put("Banana", 2);
+        map.put("Cherry", 3);
+
+        // Accessing values
+        System.out.println("Value for key 'Apple': " + map.get("Apple")); // Output: 1
+
+        // Iterating through the HashMap
+        for (String key : map.keySet()) {
+            System.out.println(key + ": " + map.get(key));
+        }
+
+        // Checking if a key exists
+        if (map.containsKey("Banana")) {
+            System.out.println("Banana exists in the map.");
+        }
+
+        // Removing a key-value pair
+        map.remove("Cherry");
+
+        // Displaying the HashMap after removal
+        System.out.println("Updated Map: " + map);
+    }
+}
