@@ -1,0 +1,32 @@
+import java.util.TreeMap;
+
+public class TreeMapExample {
+    public static void main(String[] args) {
+        // Creating a TreeMap
+        TreeMap<String, Integer> treeMap = new TreeMap<>();
+
+        // Adding key-value pairs to the TreeMap
+        treeMap.put("Banana", 2);
+        treeMap.put("Apple", 1);
+        treeMap.put("Cherry", 3);
+
+        // Accessing values
+        System.out.println("Value for key 'Apple': " + treeMap.get("Apple")); // Output: 1
+
+        // Iterating through the TreeMap
+        for (String key : treeMap.keySet()) {
+            System.out.println(key + ": " + treeMap.get(key));
+        }
+
+        // Checking if a key exists
+        if (treeMap.containsKey("Cherry")) {
+            System.out.println("Cherry exists in the TreeMap.");
+        }
+
+        // Removing a key-value pair
+        treeMap.remove("Banana");
+
+        // Displaying the TreeMap after removal
+        System.out.println("Updated TreeMap: " + treeMap);
+    }
+}
