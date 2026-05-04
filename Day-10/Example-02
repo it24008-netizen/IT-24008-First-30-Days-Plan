@@ -1,0 +1,50 @@
+import java.util.TreeSet;
+
+public class Example1 {
+    public static void main(String[] args) {
+
+        TreeSet<Integer> numbers = new TreeSet<>();
+
+        numbers.add(10);
+        numbers.add(5);
+        numbers.add(20);
+        numbers.add(5);   // duplicate, ignore হবে
+        numbers.add(15);
+
+        System.out.println("TreeSet: " + numbers);
+
+        if (numbers.contains(10)) {
+            System.out.println("10 is present in the set.");
+        }
+
+        numbers.remove(20);
+
+        System.out.println("After removal: " + numbers);
+    }
+}
+
+
+import java.util.TreeSet;
+
+public class Example2 {
+    public static void main(String[] args) {
+
+        TreeSet<String> names = new TreeSet<>();
+
+        names.add("Rahim");
+        names.add("Karim");
+        names.add("Abir");
+        names.add("Nabil");
+        names.add("Karim"); // duplicate ignore
+
+        System.out.println("Names in TreeSet: " + names);
+
+        if (names.contains("Abir")) {
+            System.out.println("Abir is found in the set.");
+        }
+
+        names.remove("Rahim");
+
+        System.out.println("After removal: " + names);
+    }
+}
