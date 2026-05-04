@@ -30,6 +30,21 @@
 #Topic Name: Working with Lists: ArrayList and LinkedList
 #Video Link: https://youtu.be/q-5D9Z9BCVI?si=Wd8FOd81-CNfaviS
 #Video No.11
+## Date:29-04-2026
+# Day #11
+# Topic Name: Using Queues in Java
+# Video Link: https://youtu.be/PccU1wAdnlM?si=s7gFGXBUUiwuhbXU
+# Video:13
+## Day-#6
+# Date :24 - 04 - 2026
+# Topic :Abstraction
+# Video Link :https://youtu.be/1SXyi3DK-88?si=Lc-2Zi_-DY1YZEh5
+# Video No. 08
+## Day #07
+# Date : 25 - 04 - 2026
+# Topic : Inner Classes In Java
+# Video Link : https://youtu.be/lsJ9QjJPbx8?si=Srr9sDj3zWVCSQw8
+# Video No.09
 
 
 
